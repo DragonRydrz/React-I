@@ -5,8 +5,10 @@ const TodoList = () => (
   <div>
     <h1> ToDo List </h1>
     <Todo />
+    <div onClick={toggleStrikeout()}>content here</div>
   </div>
   )
 
+  
 
-export default TodoList
+export default TodoList;
